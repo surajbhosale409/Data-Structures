@@ -1,3 +1,7 @@
+#include "queue.h"
+
+
+
 typedef struct graph
 {
  int vertex_count;
@@ -10,8 +14,8 @@ void setVertices(graph *g,int count)
  int i,j;
  g->vertex_count=count;
  g->edges=(int **)malloc(sizeof(int *)*count);
- for(i=0;i<count;i++)
-   g->edges[i]=(int *)calloc(count,sizeof(int));
+  for(i=0;i<count;i++)
+      g->edges[i]=(int *)calloc(count,sizeof(int));
 
 }
 
@@ -34,7 +38,7 @@ void deleteEdge(graph *g,int v1,int v2)
  g->edges[v2][v1]=0;
 }
 
-void display(graph * g)
+void displayGraph(graph * g)
 {
  int i,j;
 
@@ -53,8 +57,29 @@ void display(graph * g)
 }
 
 
-void bfs(graph *g)
+void bfs(graph *g,queue *q1,queue *q2,int v)
 {
+
+int i,j;
+
+for(i=0;i<g->vertex_count;i++)
+{
+if(g->edges[v][i]==1)
+ if((!ispresent(q1->top,i))&&(!ispresent(q2->top,i)))  
+   add(q1,i);
+}
+
+printf("%d -> ",v);
+
+add(q2,v);
+
+//printf("\n%d",v);
+//printf("\n");
+//display(q1->top);
+//printf("\n");
+//display(q2->top);
+if(!(length(q2->top)==g->vertex_count))
+bfs(g,q1,q2,delete(q1));
 
 
 
