@@ -1,5 +1,5 @@
 #include"sll.h"
-#define STACK_MAXSIZE 5
+#define STACK_MAXSIZE 50
 #define NULL 0
 
 

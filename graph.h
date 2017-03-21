@@ -42,7 +42,7 @@ void displayGraph(graph * g)
 {
  int i,j;
 
- printf("Given graph (Adj. Matrix)\n\n      ");
+ printf("Given graph (Adj. Matrix)\n\nv     ");
  for(i=0;i<g->vertex_count;i++)
    printf("%d  ",i);
 
@@ -85,7 +85,22 @@ bfs(g,q1,q2,delete(q1));
 
 }
 
+ 
+void dfs(graph *g,stack *s,queue *q,int v)
+{
+
+int i;
+
+push(s,v);
+printf("%d => ",v);
+add(q,v);
 
 
+for(i=0;i<g->vertex_count;i++)
+ if(g->edges[v][i]==1)
+  if((!ispresent(s->top,i))&&(!ispresent(q->top,i)))
+    dfs(g,s,q,i);
+ 
+}
 
-    
+   
