@@ -1,0 +1,13 @@
+Hello sir, 
+          I have put all the graph functions in graph.h and main function is in graph.c
+bfs and dfs traversals uses stack and queue, while stack and queue uses singly linked list so the sll.h,stack.h,queue.h files are needed.
+
+
+[1]====> To compile code use following command:
+         make graph
+
+
+[2]====> To run the code use following command:
+         make run
+
+

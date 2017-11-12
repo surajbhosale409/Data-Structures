@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: tts_final - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/tts_final.res" /d "_DEBUG" "D:\vc++_practice\tts_final\tts_final.rc"" 
+Creating temporary file "C:\DOCUME~1\PARVIN~1\LOCALS~1\Temp\RSP15F.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "D:\Program Files\Microsoft Speech SDK 5.1\Include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/tts_final.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\vc++_practice\tts_final\slider.cpp"
+"D:\vc++_practice\tts_final\tts_final.cpp"
+"D:\vc++_practice\tts_final\tts_finalDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\PARVIN~1\LOCALS~1\Temp\RSP15F.tmp" 
+Creating temporary file "C:\DOCUME~1\PARVIN~1\LOCALS~1\Temp\RSP160.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "D:\Program Files\Microsoft Speech SDK 5.1\Include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/tts_final.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\vc++_practice\tts_final\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\PARVIN~1\LOCALS~1\Temp\RSP160.tmp" 
+Creating temporary file "C:\DOCUME~1\PARVIN~1\LOCALS~1\Temp\RSP161.tmp" with contents
+[
+sapi.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/tts_final.pdb" /debug /machine:I386 /out:"Debug/tts_final.exe" /pdbtype:sept /libpath:"D:\Program Files\Microsoft Speech SDK 5.1\Lib\i386" 
+".\Debug\slider.obj"
+".\Debug\StdAfx.obj"
+".\Debug\tts_final.obj"
+".\Debug\tts_finalDlg.obj"
+".\Debug\tts_final.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\PARVIN~1\LOCALS~1\Temp\RSP161.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+slider.cpp
+tts_final.cpp
+tts_finalDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+tts_final.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

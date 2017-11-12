@@ -1,0 +1,29 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+bst	bst.c	/^typedef struct bst$/;"	s	file:
+bst	bst.c	/^}bst;$/;"	t	typeref:struct:bst	file:
+createbst	bst.c	/^bst * createbst(bst *root)$/;"	f
+createlist	linkdlst.c	/^node * createlist(node *list)$/;"	f
+data	bst.c	/^ int data;$/;"	m	struct:bst	file:
+data	linkdlst.c	/^ int data;$/;"	m	struct:node	file:
+data	structfile.c	/^ int data[2];$/;"	m	struct:temp	file:
+displaybst	bst.c	/^void displaybst(bst *root)$/;"	f
+displaylist	linkdlst.c	/^void displaylist(node *list)$/;"	f
+getcmdcode	shell.c	/^int getcmdcode(char cmd[])$/;"	f
+left	bst.c	/^ struct bst *left,*ryt;$/;"	m	struct:bst	typeref:struct:bst::bst	file:
+main	bst.c	/^main()$/;"	f
+main	envp.c	/^main(int argc, char **argv,char **envp)$/;"	f
+main	hello.c	/^main()$/;"	f
+main	linkdlst.c	/^main()$/;"	f
+main	shell.c	/^main()$/;"	f
+main	structfile.c	/^main()$/;"	f
+main	t.c	/^main()$/;"	f
+next	linkdlst.c	/^ struct node *next;$/;"	m	struct:node	typeref:struct:node::node	file:
+node	linkdlst.c	/^typedef struct node$/;"	s	file:
+node	linkdlst.c	/^}node;$/;"	t	typeref:struct:node	file:
+ryt	bst.c	/^ struct bst *left,*ryt;$/;"	m	struct:bst	typeref:struct:bst::	file:
+temp	structfile.c	/^struct temp$/;"	s	file:

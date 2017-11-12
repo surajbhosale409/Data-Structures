@@ -1,0 +1,132 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+NULL	queue.h	2;"	d
+NULL	sll.h	1;"	d
+NULL	stack.h	3;"	d
+STACK_MAXSIZE	stack.h	2;"	d
+TreeNode	16205/trx1.c	/^} TreeNode;$/;"	t	typeref:struct:tree_node_struct	file:
+TreeNode	btree.c	/^} TreeNode;$/;"	t	typeref:struct:tree_node_struct	file:
+TreeNode	surajbtree.c	/^} TreeNode;$/;"	t	typeref:struct:tree_node_struct	file:
+TreeNode	trx1.c	/^} TreeNode;$/;"	t	typeref:struct:tree_node_struct	file:
+add	queue.h	/^void add(queue *q,int val)$/;"	f
+addEdge	graph.c	/^void addEdge(graph *g,int v1,int v2)$/;"	f
+addWeightedEdge	graph.c	/^void addWeightedEdge(graph *g,int v1,int v2, int w)$/;"	f
+add_to_list	16205/prx1.c	/^list_node* add_to_list( list_node* list_head , int value){$/;"	f
+add_to_list	prx1.c	/^list_node* add_to_list( list_node* list_head , int value){$/;"	f
+bfs	graph.c	/^void bfs(graph *g,queue *q1,queue *q2,int v)$/;"	f
+check_if_connected_in_graph	16205/prx1.c	/^int check_if_connected_in_graph(list_node* list_head, int source, int dest) {$/;"	f
+check_if_connected_in_graph	prx1.c	/^int check_if_connected_in_graph(list_node* list_head, int source, int dest) {$/;"	f
+check_if_height_balanced	16205/trx1.c	/^int check_if_height_balanced(TreeNode* root) {$/;"	f
+check_if_height_balanced	btree.c	/^int check_if_height_balanced(TreeNode* root) {$/;"	f
+check_if_height_balanced	surajbtree.c	/^int check_if_height_balanced(TreeNode* root) {$/;"	f
+check_if_height_balanced	trx1.c	/^int check_if_height_balanced(TreeNode* root) {$/;"	f
+check_if_sum_balanced	btree.c	/^int check_if_sum_balanced(TreeNode* root) {$/;"	f
+check_if_sum_balanced	surajbtree.c	/^int check_if_sum_balanced(TreeNode* root) {$/;"	f
+concatenated_binary	16205/prx1.c	/^int concatenated_binary(list_node* list_head,int l) { $/;"	f
+concatenated_binary	prx1.c	/^int concatenated_binary(list_node* list_head,int l) { $/;"	f
+create_adjescancy_list	16205/prx1.c	/^void* create_adjescancy_list(list_node* list_head) {$/;"	f
+create_adjescancy_list	prx1.c	/^void* create_adjescancy_list(list_node* list_head) {$/;"	f
+create_node	16205/trx1.c	/^TreeNode* create_node( int value ) {$/;"	f
+create_node	btree.c	/^TreeNode* create_node( int value ) {$/;"	f
+create_node	surajbtree.c	/^TreeNode* create_node( int value ) {$/;"	f
+create_node	trx1.c	/^TreeNode* create_node( int value ) {$/;"	f
+createlist	sll.h	/^node * createlist(node *l,int val)$/;"	f
+data	sll.h	/^ int data;$/;"	m	struct:node
+deleteEdge	graph.c	/^void deleteEdge(graph *g,int v1,int v2)$/;"	f
+deleteend	sll.h	/^node * deleteend(node *l)$/;"	f
+deletefront	sll.h	/^node * deletefront(node *l)$/;"	f
+dfs	graph.c	/^void dfs(graph *g,stack *s,queue *q,int v)$/;"	f
+display	sll.h	/^void display(node *l)$/;"	f
+displayGraph	graph.c	/^void displayGraph(graph * g)$/;"	f
+edges	graph.c	/^ int **edges;$/;"	m	struct:graph	file:
+get_diameter_of_tree	16205/trx1.c	/^int get_diameter_of_tree(TreeNode* root,TreeNode* mroot) {$/;"	f
+get_diameter_of_tree	btree.c	/^int get_diameter_of_tree(TreeNode* root,TreeNode* mroot) {$/;"	f
+get_diameter_of_tree	surajbtree.c	/^int get_diameter_of_tree(TreeNode* root,TreeNode* mroot) {$/;"	f
+get_diameter_of_tree	trx1.c	/^int get_diameter_of_tree(TreeNode* root,TreeNode* mroot) {$/;"	f
+getfirst	queue.h	/^int getfirst(node *list)$/;"	f
+graph	graph.c	/^typedef struct graph$/;"	s	file:
+graph	graph.c	/^}graph;$/;"	t	typeref:struct:graph	file:
+height	16205/trx1.c	/^int height(TreeNode *root)$/;"	f
+height	btree.c	/^int height(TreeNode *root)$/;"	f
+height	surajbtree.c	/^int height(TreeNode *root)$/;"	f
+height	trx1.c	/^int height(TreeNode *root)$/;"	f
+insertend	sll.h	/^node * insertend(node *l,int val)$/;"	f
+insertfront	sll.h	/^node * insertfront(node *l,int val)$/;"	f
+isempty	stack.h	/^int isempty(stack *s)$/;"	f
+isfull	stack.h	/^int isfull(stack *s)$/;"	f
+ispresent	sll.h	/^int ispresent (node *list,int data)$/;"	f
+last_node	16205/prx1.c	/^list_node* last_node( list_node* list_head ) {$/;"	f
+last_node	prx1.c	/^list_node* last_node( list_node* list_head ) {$/;"	f
+left_node	16205/trx1.c	/^    struct tree_node_struct* left_node;$/;"	m	struct:tree_node_struct	typeref:struct:tree_node_struct::tree_node_struct	file:
+left_node	btree.c	/^    struct tree_node_struct* left_node;$/;"	m	struct:tree_node_struct	typeref:struct:tree_node_struct::tree_node_struct	file:
+left_node	surajbtree.c	/^    struct tree_node_struct* left_node;$/;"	m	struct:tree_node_struct	typeref:struct:tree_node_struct::tree_node_struct	file:
+left_node	trx1.c	/^    struct tree_node_struct* left_node;$/;"	m	struct:tree_node_struct	typeref:struct:tree_node_struct::tree_node_struct	file:
+length	16205/prx1.c	/^int length(list_node* list_head) {$/;"	f
+length	prx1.c	/^int length(list_node* list_head) {$/;"	f
+length	sll.h	/^int length(node *l)$/;"	f
+linked_list_node	16205/prx1.c	/^typedef struct linked_list_node{$/;"	s	file:
+linked_list_node	prx1.c	/^typedef struct linked_list_node{$/;"	s	file:
+list_node	16205/prx1.c	/^} list_node;$/;"	t	typeref:struct:linked_list_node	file:
+list_node	prx1.c	/^} list_node;$/;"	t	typeref:struct:linked_list_node	file:
+main	16205/prx1.c	/^int main() {$/;"	f
+main	16205/trx1.c	/^int main() {$/;"	f
+main	btree.c	/^int main() {$/;"	f
+main	prx1.c	/^int main() {$/;"	f
+main	surajbtree.c	/^int main() {$/;"	f
+main	trx1.c	/^int main() {$/;"	f
+new_node	16205/prx1.c	/^list_node* new_node(int value) {$/;"	f
+new_node	prx1.c	/^list_node* new_node(int value) {$/;"	f
+newnode	sll.h	/^node * newnode(node *l,int val)$/;"	f
+next	16205/prx1.c	/^    struct linked_list_node * next;$/;"	m	struct:linked_list_node	typeref:struct:linked_list_node::linked_list_node	file:
+next	prx1.c	/^    struct linked_list_node * next;$/;"	m	struct:linked_list_node	typeref:struct:linked_list_node::linked_list_node	file:
+next	sll.h	/^ struct node *next;$/;"	m	struct:node	typeref:struct:node::node
+node	sll.h	/^typedef struct node$/;"	s
+node	sll.h	/^}node;$/;"	t	typeref:struct:node
+node_data	16205/trx1.c	/^    int node_data;$/;"	m	struct:tree_node_struct	file:
+node_data	btree.c	/^    int node_data;$/;"	m	struct:tree_node_struct	file:
+node_data	surajbtree.c	/^    int node_data;$/;"	m	struct:tree_node_struct	file:
+node_data	trx1.c	/^    int node_data;$/;"	m	struct:tree_node_struct	file:
+node_value	16205/prx1.c	/^    int *node_value;$/;"	m	struct:linked_list_node	file:
+node_value	prx1.c	/^    int *node_value;$/;"	m	struct:linked_list_node	file:
+pop	stack.h	/^int pop(stack *s)$/;"	f
+postorder	16205/trx1.c	/^void postorder( TreeNode *root ) {$/;"	f
+postorder	btree.c	/^void postorder( TreeNode *root ) {$/;"	f
+postorder	surajbtree.c	/^void postorder( TreeNode *root ) {$/;"	f
+postorder	trx1.c	/^void postorder( TreeNode *root ) {$/;"	f
+pow	16205/prx1.c	/^int pow(int b,int p)$/;"	f
+pow	prx1.c	/^int pow(int b,int p)$/;"	f
+preserve_numbers_at_even_location	16205/prx1.c	/^list_node* preserve_numbers_at_even_location(list_node* list_head,int p) {$/;"	f
+preserve_numbers_at_even_location	prx1.c	/^list_node* preserve_numbers_at_even_location(list_node* list_head,int p) {$/;"	f
+print_cousins	btree.c	/^void print_cousins(TreeNode *root)$/;"	f
+print_cousins	surajbtree.c	/^void print_cousins(TreeNode *root)$/;"	f
+print_level_wise_nodes	btree.c	/^void print_level_wise_nodes(TreeNode *root)$/;"	f
+print_level_wise_nodes	surajbtree.c	/^void print_level_wise_nodes(TreeNode *root)$/;"	f
+print_list	16205/prx1.c	/^void print_list( list_node* list_head ) {$/;"	f
+print_list	prx1.c	/^void print_list( list_node* list_head ) {$/;"	f
+print_paths_to_all_leaves	16205/trx1.c	/^void print_paths_to_all_leaves(TreeNode* root){$/;"	f
+print_paths_to_all_leaves	btree.c	/^void print_paths_to_all_leaves(TreeNode* root,char str[]){$/;"	f
+print_paths_to_all_leaves	surajbtree.c	/^void print_paths_to_all_leaves(TreeNode* root,char str[]){$/;"	f
+print_paths_to_all_leaves	trx1.c	/^void print_paths_to_all_leaves(TreeNode* root,char str[]){$/;"	f
+print_siblings	btree.c	/^void print_siblings(TreeNode *root)$/;"	f
+print_siblings	surajbtree.c	/^void print_siblings(TreeNode *root)$/;"	f
+push	stack.h	/^void push(stack *s,int val)$/;"	f
+queue	queue.h	/^typedef stack queue;$/;"	t
+right_node	16205/trx1.c	/^    struct tree_node_struct* right_node;$/;"	m	struct:tree_node_struct	typeref:struct:tree_node_struct::tree_node_struct	file:
+right_node	btree.c	/^    struct tree_node_struct* right_node;$/;"	m	struct:tree_node_struct	typeref:struct:tree_node_struct::tree_node_struct	file:
+right_node	surajbtree.c	/^    struct tree_node_struct* right_node;$/;"	m	struct:tree_node_struct	typeref:struct:tree_node_struct::tree_node_struct	file:
+right_node	trx1.c	/^    struct tree_node_struct* right_node;$/;"	m	struct:tree_node_struct	typeref:struct:tree_node_struct::tree_node_struct	file:
+setVertices	graph.c	/^void setVertices(graph *g,int count)$/;"	f
+size	stack.h	/^int size(stack *s)$/;"	f
+stack	stack.h	/^typedef struct stack$/;"	s
+stack	stack.h	/^}stack;$/;"	t	typeref:struct:stack
+sum	surajbtree.c	/^int sum(TreeNode *root)$/;"	f
+top	stack.h	/^  node *top;    $/;"	m	struct:stack
+tree_node_struct	16205/trx1.c	/^typedef struct tree_node_struct {$/;"	s	file:
+tree_node_struct	btree.c	/^typedef struct tree_node_struct {$/;"	s	file:
+tree_node_struct	surajbtree.c	/^typedef struct tree_node_struct {$/;"	s	file:
+tree_node_struct	trx1.c	/^typedef struct tree_node_struct {$/;"	s	file:
+vertex_count	graph.c	/^ int vertex_count;$/;"	m	struct:graph	file:
