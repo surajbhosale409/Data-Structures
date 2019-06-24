@@ -32,7 +32,7 @@ void postorder( TreeNode *root ) {
 
 int get_diameter_of_tree(TreeNode* root,TreeNode* mroot) {
     // Diameter of a tree is the length of its longest path
-    int hl,hr;
+    int hl=0,hr=0;
     
 
     if(root)
