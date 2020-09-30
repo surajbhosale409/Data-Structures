@@ -32,8 +32,20 @@ void postorder( TreeNode *root ) {
 
 int height(TreeNode *root)
 {
-//maximum level in tree is the height of that tree calculate and return it
-     return 0;
+//maximum level in tree is the height of that tree calculate recursively and return either the value of left_subtree(including the root) or the value of right_subtree(including the root).
+    if(root==NULL)
+        return 0;
+    else
+    {
+        int left_subtree;
+        int right_subtree;
+        left_subtree=height(root->left_node);
+        right_subtree=height(root->right_node);
+        if(left_subtree>right_subtree)
+            return left_subtree+1;
+        else
+            return right_subtree+1;
+    }
 }
 
 
@@ -87,6 +99,7 @@ int main() {
 
     postorder(root);
     printf("\n");
+    printf("%d\n",height(root));
 
 
     return 0;
